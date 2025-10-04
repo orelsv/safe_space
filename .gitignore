@@ -1,5 +1,47 @@
+# --- Python ---
 __pycache__/
 *.pyc
 *.pyo
-*.DS_Store
+*.pyd
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+
+# --- Virtual environments ---
+venv/
+.env/
+.envrc
+.venv/
+*.env
+
+# --- Certificates and keys (!!! sensitive !!!) ---
+ca.key.pem
+ca.cert.pem
+certs/
+*.crt.pem
+*.key.pem
+
+# --- Logs and runtime data ---
 decisions.log
+proxy.out
+*.pid
+
+# --- Configs that may differ locally ---
+#config.json
+
+# --- macOS metadata ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- System / backup files ---
+Thumbs.db
+*.~*
+*.bak

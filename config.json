@@ -1,10 +1,26 @@
 {
-  "listen_host": "127.0.0.1",
+  "listen_host": "0.0.0.0",
   "listen_port": 8888,
 
-  "allow_hosts": ["httpbin.org"],
-  "block_hosts": ["example.org"],
+  "allow_hosts": [],
+  "block_hosts": [
+    "facebook.com", ".facebook.com", ".fbcdn.net", ".fbsbx.com",
+    "instagram.com", ".instagram.com", ".cdninstagram.com",
+    "tiktok.com", ".tiktok.com", ".tiktokv.com", ".ttwstatic.com", ".tiktokcdn.com",
+    "twitter.com", ".twitter.com", "x.com", ".x.com", ".twimg.com",
+    "snapchat.com", ".snapchat.com", ".sc-cdn.net",
+    "reddit.com", ".reddit.com", ".redditmedia.com", ".redditstatic.com",
+    "vk.com", ".vk.com",
+    "ok.ru", ".ok.ru",
+    "pinterest.com", ".pinterest.com",
+    "tumblr.com", ".tumblr.com",
+    "weibo.com", ".weibo.com",
+    "neverssl.com"
+  ],
   "block_url_keywords": ["secret", "blocked", "forbidden"],
 
-  "default_policy": "allow"
+  "default_policy": "allow",
+
+  "admin_host": "127.0.0.1",
+  "admin_port": 8890
 }
